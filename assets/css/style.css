@@ -62,6 +62,7 @@ button:hover {
 
 .btn-wide {
     width: 250px;
+    border-color: #8D92A1;
 }
 
 .btn-skinny {
@@ -97,9 +98,9 @@ button:hover {
     text-decoration: none;
 }
 
-.social-media-buttons>a>i:hover {
-    color: #e84855;
-}
+/* .social-media-buttons>a>i:hover {
+    background-color: #e84855;
+} */
 
 #cta {
     display: flex;
@@ -121,7 +122,7 @@ button:hover {
 
 .skills-item-head {
     margin: 5px 5px 5px 0;
-    border-left: 6px solid #e84855;
+    border-left: 6px solid #606B83;
     padding-left: 10px;
 }
 
@@ -222,12 +223,12 @@ figcaption a:hover {
 
 #pp-nav li .active span,
 .pp-slidesNav .active span {
-    background: #e84855 !important;
+    background: #8D92A1 !important;
 }
 
 #pp-nav span,
 .pp-slidesNav span {
-    border-color: #e84855 !important;
+    border-color: #8D92A1 !important;
 }
 
 

@@ -1,7 +1,7 @@
 $(document).ready(function () {
     /* Home Section - btnContact transition content */
     $('#btnContact').hover(function () {
-        $(this).text('joeylenerivera@gmail.com');
+        $(this).text('Javad.yaali@gmail.com');
     }, function () {
         $(this).text('CONTACT ME');
     });
@@ -10,9 +10,9 @@ $(document).ready(function () {
     ZC.LICENSE = ['7b185ca19b4be2cba68fdcd369c663a9'];
 
     /* Colors */
-    var white = '#fff';
+    var white = '#8D92A1';
     var transparent = 'transparent';
-    var lightRed = '#e84855';
+    var lightRed = '#606B83';
 
     /* Chart Skills */
     var chartSkillsData = {
@@ -26,12 +26,12 @@ $(document).ready(function () {
             alphaArea: '.6',
         },
         scaleK: {
-            labels: ['HTML & CSS', 'JavaScript', 'Java', 'Laravel', 'CodeIgniter', 'MySQL', 'PHP'],
+            labels: ['Pytorch', 'MLFlow', 'Kedro', 'PostgreSQL', 'DVC', 'HyperOpt'],
             item: {
                 fontColor: white,
                 rules: [{
-                    rule: '%i == 0 || %i == 1 || %i == 3 || %i == 5 || %i == 6',
-                    fontColor: lightRed
+                    rule: '%i == 0 || %i == 1 || %i == 3',
+                    fontColor: white
                 }]
             },
             guide: {
@@ -54,7 +54,7 @@ $(document).ready(function () {
             }
         },
         series: [{
-            values: [70, 70, 40, 50, 30, 70, 60],
+            values: [70, 70, 40, 50, 20, 35],
             backgroundColor: lightRed,
             lineColor: lightRed,
             legendItem: {
